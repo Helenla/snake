@@ -1,0 +1,31 @@
+li{
+	list-style: none;
+	width: 100px;
+	height:50px;
+	background: #ccc;
+	margin-top:10px; 
+	text-align: center;
+	line-height: 50px;
+	font-size:20px;
+}
+a{
+	text-decoration: none;
+	color:green;
+}
+#map{
+	border:1px solid black;
+	box-shadow: 0 0 30px 5px #ccc;
+	position: absolute;
+	left:0;right:0;top:0;bottom:0;
+	margin: auto;
+	font-size:0;
+}
+span{
+	display: inline-block;
+	border:1px solid black;
+	box-sizing: border-box;
+	border-radius:20%;
+}
+span.snake{background: blue;}
+span.head{background: green;}
+span.food{background: orange;}
